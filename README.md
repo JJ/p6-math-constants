@@ -1,7 +1,7 @@
-NAME
+Math::Constants
 ====
 
-Math::Constants - blah blah blah
+Math::Constants - A few constants defined in Perl6
 
 SYNOPSIS
 ========
@@ -11,7 +11,8 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Math::Constants is ...
+Math::Constants is a collection of Math and Physics constants that
+will save you the trouble of definint them. 
 
 AUTHOR
 ======
