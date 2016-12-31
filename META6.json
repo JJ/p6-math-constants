@@ -13,5 +13,5 @@
   "resources" : [ ],
   "source-url" : "https://github.com/JJ/p6-math-constants",
   "test-depends" : [ ],
-  "version" : "0.0.1"
+  "version" : "0.0.2"
 }
