@@ -20,6 +20,15 @@ my constant α is export := fine-structure-constant;
 my constant e is export := elementary-charge;
 my constant ε0 is export := vacuum-permittivity;
 
+#Use them as units
+multi sub postfix:<c>  (Num $value) is export {
+    return c*$value;
+}
+
+multi sub postfix:<c>  (Rat $value) is export {
+    return c*$value;
+}
+
 =begin pod
 
 =head1 NAME
@@ -35,7 +44,9 @@ say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c
 elementary-charge, " and ", vacuum-permitivity ;
 say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
 " with e ", e, " and ε0 ", ε0;
-  
+
+   say "We are flying at speed ", .1c;
+
 =head1 DESCRIPTION
 
 Math::Constants is a set of constants used in Physics and Math.
@@ -47,7 +58,10 @@ and α the fine structure constant.
 
     There are a set of 3 electrical constants: the elementary charge e,
 the vacuum permittivity ε₀ and the fine structure constant α
-    
+
+    C<c> can also be used as an unit of speed,
+as in .001c for a thousandth of the speed of light.
+   
 This set is by no means complete,
 but they are just a few examples that you can use in your programs. 
 
