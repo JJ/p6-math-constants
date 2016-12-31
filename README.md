@@ -10,8 +10,14 @@ SYNOPSIS
 	
 	use v6;
     use Math::Constants;
-	say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c, " ", G;
-    say "And also  φ ", φ, " ℎ ",  ℎ, " and ℏ ", ℏ;
+
+	say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c
+	, " ", G, " and ", fine-structure-constant, " plus ",
+	elementary-charge, " and ", vacuum-permittivity ;
+	say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
+	" with e ", e, " and ε0 ", ε0;
+
+	say "We are flying at speed ", .1c;
 
 DESCRIPTION
 ===========
@@ -30,6 +36,7 @@ as `plancks-h` or `ℎ` and `plancks-reduced-h` or `ℏ`.
 * [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) as `phi`
   or φ.
 
+* Several electronic constants: [α](https://en.wikipedia.org/wiki/Fine-structure_constant) and the elementary charge and vacuum permittivity. 
 
 AUTHOR
 ======

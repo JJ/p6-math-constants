@@ -41,7 +41,7 @@ Math::Constants - blah blah blah
 
 say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c
 , " ", G, " and ", fine-structure-constant, " plus ",
-elementary-charge, " and ", vacuum-permitivity ;
+elementary-charge, " and ", vacuum-permittivity ;
 say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
 " with e ", e, " and ε0 ", ε0;
 
