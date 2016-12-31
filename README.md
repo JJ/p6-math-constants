@@ -34,8 +34,12 @@ in J/s
 as `plancks-h` or `ℎ` and `plancks-reduced-h` or `ℏ`.
 * [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) as `phi`
   or φ.
-
 * Several electronic constants: [α](https://en.wikipedia.org/wiki/Fine-structure_constant) and the elementary charge and vacuum permittivity. 
+
+Issues and suggestions
+======================
+
+Please post them [in GitHub](https://github.com/JJ/p6-math-constants/issues). Pull requests are also welcome.
 
 AUTHOR
 ======
