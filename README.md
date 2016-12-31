@@ -29,8 +29,7 @@ will save you the trouble of defining them.
 
 * [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant) as `G`.
 * [Speed of light](https://en.wikipedia.org/wiki/Speed_of_light) as `c`.
-*
-[Planck constant and reduced constant](https://en.wikipedia.org/wiki/Planck_constant)
+* [Planck constant and reduced constant](https://en.wikipedia.org/wiki/Planck_constant)
 in J/s
 as `plancks-h` or `ℎ` and `plancks-reduced-h` or `ℏ`.
 * [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) as `phi`
