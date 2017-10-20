@@ -7,6 +7,7 @@ my constant plancks-reduced-h is export = 1.054_571_800e-34;
 my constant c is export = 299792458;
 my constant G is export = 6.67408e-11;
 my constant L is export = 6.022140857e23;
+my constant K0 is export = 9e9;
 
 # Electrical constants
 my constant fine-structure-constant is export = 0.0072973525664;
@@ -62,9 +63,9 @@ the vacuum permittivity ε₀ and the fine structure constant α
 
     C<c> can also be used as an unit of speed,
 as in .001c for a thousandth of the speed of light.
-   
+
 This set is by no means complete,
-but they are just a few examples that you can use in your programs. 
+but they are just a few examples that you can use in your programs.
 
 =head1 AUTHOR
 
