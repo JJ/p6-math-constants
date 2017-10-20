@@ -6,12 +6,18 @@ my constant plancks-h is export = 6.626_070_040e-34;
 my constant plancks-reduced-h is export = 1.054_571_800e-34;
 my constant c is export = 299792458;
 my constant G is export = 6.67408e-11;
+
+my constant eulernumber-e is export = 2.7182818284;
+my constant pi is export = 3.142857;
 my constant L is export = 6.022140857e23;
+
 
 # Electrical constants
 my constant fine-structure-constant is export = 0.0072973525664;
 my constant elementary-charge is export = 1.6021766208e-19;
 my constant vacuum-permittivity is export = 8.854187817e-12;
+my constant boltzmann-constant is export = 8.617343e-5;//eV i.e in electronvolts
+my constant eV is export = 1.60217653e-19;
 
 #Greek letters when available
 my constant φ is export := phi;
@@ -41,8 +47,8 @@ Math::Constants - blah blah blah
   use Math::Constants;
 
 say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c
-, " ", G, " and ", fine-structure-constant, " plus ",
-elementary-charge, " and ", vacuum-permittivity ;
+, " ", G, " “,eulernumber-e ,” “,pi ,” and ", fine-structure-constant, " plus ",
+elementary-charge, " ", vacuum-permittivity ,” “, boltzmann-constant ,” and “,eV ,” ;
 say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
 " with q ", q, " and ε0 ", ε0;
 
