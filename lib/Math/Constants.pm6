@@ -1,4 +1,4 @@
-use v6;
+﻿use v6;
 unit class Math::Constants;
 
 my constant phi is export = 1.61803398874989e0;
@@ -6,7 +6,7 @@ my constant plancks-h is export = 6.626_070_040e-34;
 my constant plancks-reduced-h is export = 1.054_571_800e-34;
 my constant c is export = 299792458;
 my constant G is export = 6.67408e-11;
-
+my constant L is export = 6.022045e23;
 #Electrical constants
 my constant fine-structure-constant is export = 0.0072973525664;
 my constant elementary-charge is export = 1.6021766208e-19;
