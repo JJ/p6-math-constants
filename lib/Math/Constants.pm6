@@ -13,6 +13,7 @@ my constant K0 is export = 9e9;
 my constant fine-structure-constant is export = 0.0072973525664;
 my constant elementary-charge is export = 1.6021766208e-19;
 my constant vacuum-permittivity is export = 8.854187817e-12;
+my constant magnetic-permittivity is export = 12.566370614e-7;
 
 #Greek letters when available
 my constant φ is export := phi;
