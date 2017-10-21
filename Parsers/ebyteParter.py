@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 url = "http://www.ebyte.it/library/educards/constants/ConstantsOfPhysicsAndMath.html"
 soup = BeautifulSoup(urlopen(url).read(), "html5lib")
-f = open("ebyteParse-output.txt", "w")
+f = open("ebyteParse-output.pm6", "w")
 
 table = soup.find("table", attrs={"class": "grid9"})
 
@@ -22,8 +22,8 @@ for tr in rows:
             constant = str(cols[0].find(text=True)).replace(" ", "-")
             value = str(cols[1].find(text=True))
             value = value.replace(" ", "").replace("...", "").replace("[", "").replace("]", "")
-            print(constant + "\t" + value)
-            f.write(constant + "\t" + value)
+            print("my constant " + constant + " is export = " + value)
+            f.write("my constant " + constant + " is export = " + value)
 
     f.write("\n")
 
