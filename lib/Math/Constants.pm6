@@ -20,11 +20,15 @@ my constant lp is export := planck-length;
 my constant planck-temperature is export = 1.416833e+32;
 my constant L is export = 6.022140857e23;
 
+
 # Electrical constants
 my constant fine-structure-constant is export = 0.0072973525664;
 my constant elementary-charge is export = 1.6021766208e-19;
 my constant vacuum-permittivity is export = 8.854187817e-12;
 my constant vacuum-permeability is export = 12.566370614359e-7;
+my constant magnetic-flux-quantum is export = 2.067833831e-15;
+my constant nuclear-magneton is export = 5.050783699e-27;
+
 
 #Greek letters when available
 my constant φ is export := phi;
