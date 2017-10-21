@@ -22,8 +22,7 @@ for tr in rows:
             constant = str(cols[0].find(text=True)).replace(" ", "-")
             value = str(cols[1].find(text=True))
             value = value.replace(" ", "").replace("...", "").replace("[", "").replace("]", "")
-            print("my constant " + constant + " is export = " + value)
-            f.write("my constant " + constant + " is export = " + value)
+            f.write("my constant " + constant + " is export = " + value + ";")
 
     f.write("\n")
 
