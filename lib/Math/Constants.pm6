@@ -1,4 +1,4 @@
-﻿use v6;
+use v6;
 unit class Math::Constants;
 
 my constant phi is export = 1.61803398874989e0;
@@ -6,7 +6,6 @@ my constant plancks-h is export = 6.626_070_040e-34;
 my constant plancks-reduced-h is export = 1.054_571_800e-34;
 my constant c is export = 299792458;
 my constant G is export = 6.67408e-11;
-
 my constant eulernumber-e is export = 2.7182818284;
 my constant pi is export = 3.142857;
 my constant L is export = 6.022140857e23;
@@ -16,7 +15,7 @@ my constant L is export = 6.022140857e23;
 my constant fine-structure-constant is export = 0.0072973525664;
 my constant elementary-charge is export = 1.6021766208e-19;
 my constant vacuum-permittivity is export = 8.854187817e-12;
-my constant boltzmann-constant is export = 8.617343e-5;//eV i.e in electronvolts
+my constant boltzmann-constant is export = 8.617343e-5; #eV i.e in electronvolts
 my constant eV is export = 1.60217653e-19;
 
 #Greek letters when available
