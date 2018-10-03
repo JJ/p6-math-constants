@@ -32,6 +32,21 @@ my constant boltzmann-constant is export = 8.617343e-5; #eV i.e in electronvolts
 my constant eV is export = 1.60217653e-19;
 my constant vacuum-permeability is export = 12.566370614359e-7;
 
+# (Strictly) Mathematical constants
+# REF: https://en.wikipedia.org/wiki/Mathematical_constant
+my constant alpha-feigenbaum-constant is export =  2.502907875095892822283e0;
+my constant delta-feigenbaum-constant is export = 4.669201609102990e0;
+my constant apery-constant is export = 1.2020569031595942853997381e0;
+my constant conway-constant is export = 1.303577269034e0;
+my constant khinchin-constant is export = 2.6854520010e0;
+my constant glaisher-kinkelin-constant is export = 1.2824271291e0;
+my constant golomb-dickman-constant is export = 0.62432998854355e0;
+my constant catalan-constant is export = 0.915965594177219015054603514e0;
+my constant mill-constant is export = 1.3063778838630806904686144e0;
+my constant gauss-constant is export = 0.8346268e0;
+my constant euler-mascheroni-gamma is export = 0.57721566490153286060e0;
+my constant sierpinski-gamma is export = 2.5849817595e0;
+
 #Greek letters when available
 my constant φ is export := phi;
 my constant ℎ is export := plancks-h;
@@ -40,6 +55,12 @@ my constant α is export := fine-structure-constant;
 my constant q is export := elementary-charge;
 my constant ε0 is export := vacuum-permittivity;
 my constant μ0 is export := vacuum-permeability;
+my constant δ is export := delta-feigenbaum-constant;
+my constant λ is export := conway-constant;
+my constant k0 is export := khinchin-constant;
+my constant A is export := glaisher-kinkelin-constant; 
+my constant γ is export := euler-mascheroni-gamma; 
+my constant k is export := sierpinski-gamma; 
 
 #Use them as units
 multi sub postfix:<c>  (Num $value) is export {
