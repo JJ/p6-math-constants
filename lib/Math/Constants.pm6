@@ -56,6 +56,15 @@ my constant q is export := elementary-charge;
 my constant ε0 is export := vacuum-permittivity;
 my constant μ0 is export := vacuum-permeability;
 
+my constant α is export := alpha-feigenbaum-constant;
+my constant δ is export := delta-feigenbaum-constant;
+my constant λ is export := conway-constant;
+my constant k0 is export := khinchin-constant;
+my constant A is export := glaisher-kinkelin-constant; 
+my constant G is export := catalan-constant; 
+my constant γ is export := euler-mascheroni-gamma; 
+my constant k is export := sierpinski-gamma; 
+
 #Use them as units
 multi sub postfix:<c>  (Num $value) is export {
     return c*$value;
