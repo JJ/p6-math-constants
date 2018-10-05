@@ -23,6 +23,8 @@ my constant planck-length is export = 1.616199e-35;
 my constant lp is export := planck-length;
 my constant planck-temperature is export = 1.416833e+32;
 my constant L is export = 6.022140857e23;
+my constant alpha-particle is export 6.644657230e-27
+my constant avogadro is 6.022148857e23
 
 # Electrical constants
 my constant fine-structure-constant is export = 0.0072973525664;
