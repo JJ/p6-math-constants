@@ -23,11 +23,13 @@ my constant planck-length is export = 1.616199e-35;
 my constant lp is export := planck-length;
 my constant planck-temperature is export = 1.416833e+32;
 my constant L is export = 6.022140857e23;
+my constant K0 is export = 9e9;
 
 # Electrical constants
 my constant fine-structure-constant is export = 0.0072973525664;
 my constant elementary-charge is export = 1.6021766208e-19;
 my constant vacuum-permittivity is export = 8.854187817e-12;
+my constant magnetic-permittivity is export = 12.566370614e-7;
 my constant boltzmann-constant is export = 8.617343e-5; #eV i.e in electronvolts
 my constant eV is export = 1.60217653e-19;
 my constant vacuum-permeability is export = 12.566370614359e-7;
