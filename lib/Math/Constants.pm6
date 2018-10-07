@@ -6,12 +6,16 @@ my constant phi is export = 1.61803398874989e0;
 my constant plancks-h is export = 6.626_070_040e-34;
 my constant plancks-reduced-h is export = 1.054_571_800e-34;
 my constant c is export = 299792458;
+my constant g is export = 9.80665;
 my constant G is export = 6.67408e-11;
 my constant eulernumber-e is export = 2.7182818284;
 my constant pi is export = 3.142857;
 my constant gas-constant = 8.3144598;
 my constant F is export = 96484.5561;
 
+my constant electron-mass is export = 9.10938356e-31;
+my constant proton-mass is export = 1.6726219e-27;
+my constant neutron-mass is export = 1.674929e-27;
 
 # REF: http://www.ebyte.it/library/educards/constants/ConstantsOfPhysicsAndMath.html
 my constant quantum-ratio is export = 2.417989348e14;
@@ -60,17 +64,25 @@ my constant μ0 is export := vacuum-permeability;
 my constant δ is export := delta-feigenbaum-constant;
 my constant λ is export := conway-constant;
 my constant k0 is export := khinchin-constant;
-my constant A is export := glaisher-kinkelin-constant; 
-my constant γ is export := euler-mascheroni-gamma; 
-my constant k is export := sierpinski-gamma; 
+my constant A is export := glaisher-kinkelin-constant;
+my constant γ is export := euler-mascheroni-gamma;
+my constant k is export := sierpinski-gamma;
 
 #Use them as units
 multi sub postfix:<c>  (Num $value) is export {
     return c*$value;
 }
 
+multi sub postfix:<g>  (Num $value) is export {
+    return g*$value;
+}
+
 multi sub postfix:<c>  (Rat $value) is export {
     return c*$value;
+}
+
+multi sub postfix:<g>  (Rat $value) is export {
+    return g*$value;
 }
 
 =begin pod
