@@ -3,7 +3,7 @@ use Test;
 use lib ('../lib','lib');
 use Math::Constants;
 
-my @constants-names = <G phi plancks-h plancks-reduced-h elementary-charge vacuum-permittivity>;
+my @constants-names = <G phi plancks-h plancks-reduced-h elementary-charge vacuum-permittivity alpha-feigenbaum-constant delta-feigenbaum-constant apery-constant conway-constant khinchin-constant glaisher-kinkelin-constant golomb-dickman-constant catalan-constant mill-constant gauss-constant euler-mascheroni-gamma sierpinski-gamma>;
 my @constants;
 @constants-names ==> map  { EVAL $_  }  ==> @constants;
 
@@ -21,3 +21,5 @@ is-approx L, 6.022140857e23, "Avogadro's number";
 is-approx 0.1c, c/10, "Speed of light as unit";
 
 done-testing;
+
+
