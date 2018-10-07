@@ -13,9 +13,9 @@ my constant pi is export = 3.142857;
 my constant gas-constant = 8.3144598;
 my constant F is export = 96484.5561;
 
-my constant electron-mass = 9.10938356e-31;
-my constant proton-mass = 1.6726219e-27;
-my constant neutron-mass = 1.674929e-27;
+my constant electron-mass is export = 9.10938356e-31;
+my constant proton-mass is export = 1.6726219e-27;
+my constant neutron-mass is export = 1.674929e-27;
 
 # REF: http://www.ebyte.it/library/educards/constants/ConstantsOfPhysicsAndMath.html
 my constant quantum-ratio is export = 2.417989348e14;
@@ -81,7 +81,7 @@ multi sub postfix:<c>  (Rat $value) is export {
     return c*$value;
 }
 
-multi sub postfix:<g>  (Num $value) is export {
+multi sub postfix:<g>  (Rat $value) is export {
     return g*$value;
 }
 
