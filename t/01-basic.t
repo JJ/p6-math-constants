@@ -3,27 +3,21 @@ use Test;
 use lib ('../lib','lib');
 use Math::Constants;
 
-my @constants-names = <
+my @num-constants-names = <
   ℎ
   ℏ
   A
   alpha-feigenbaum-constant
   apery-constant
   boltzmann-constant
-  c
   catalan-constant
   conway-constant
   delta-feigenbaum-constant
   electron-mass
   elementary-charge
   euler-mascheroni-gamma
-  eulernumber-e
   eV
-  F
-  fine-structure-constant
-  g
   G
-  gas-constant
   gauss-constant
   glaisher-kinkelin-constant
   golomb-dickman-constant
@@ -38,7 +32,6 @@ my @constants-names = <
   mp
   neutron-mass
   phi
-  pi
   planck-length
   planck-mass
   plancks-h
@@ -52,7 +45,6 @@ my @constants-names = <
   tp
   vacuum-permeability
   vacuum-permittivity
-  α
   γ
   δ
   ε0
@@ -61,14 +53,35 @@ my @constants-names = <
   φ
 >;
 
-my @constants;
-@constants-names ==> map  { EVAL $_  }  ==> @constants;
+my @num-constants;
+@num-constants-names ==> map  { EVAL $_  }  ==> @num-constants;
 
-@constants.map( { is .WHAT, (Num), "Type OK"} );
+@num-constants.map( { is .WHAT, (Num), "Type OK"} );
 
-is c.WHAT, (Int), "c is OK";
-is g.WHAT, (Rat), "g is OK";
-is α.WHAT, (Rat), "e is OK";
+my @rat-constants-names = <
+  α
+  eulernumber-e
+  pi
+  gas-constant
+  F
+  fine-structure-constant
+  g
+>;
+
+my @rat-constants;
+@rat-constants-names ==> map  { EVAL $_  }  ==> @rat-constants;
+dd @rat-constants;
+
+@rat-constants.map( { is .WHAT, (Rat), "Type OK"} );
+
+my @int-constants-names = <
+  c
+>;
+
+my @int-constants;
+@int-constants-names ==> map  { EVAL $_  }  ==> @int-constants;
+
+@int-constants.map( { is .WHAT, (Int), "Type OK"} );
 
 is-approx ℎ/(2*π), ℏ, "Planck's constants";
 is-approx φ, (1 + sqrt(5))/2, "Golden ratio";
