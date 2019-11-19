@@ -3,7 +3,64 @@ use Test;
 use lib ('../lib','lib');
 use Math::Constants;
 
-my @constants-names = <G phi plancks-h plancks-reduced-h elementary-charge vacuum-permittivity alpha-feigenbaum-constant delta-feigenbaum-constant apery-constant conway-constant khinchin-constant glaisher-kinkelin-constant golomb-dickman-constant catalan-constant mill-constant gauss-constant euler-mascheroni-gamma sierpinski-gamma electron-mass proton-mass neutron-mass>;
+my @constants-names = <
+  ℎ
+  ℏ
+  A
+  alpha-feigenbaum-constant
+  apery-constant
+  boltzmann-constant
+  c
+  catalan-constant
+  conway-constant
+  delta-feigenbaum-constant
+  electron-mass
+  elementary-charge
+  euler-mascheroni-gamma
+  eulernumber-e
+  eV
+  F
+  fine-structure-constant
+  g
+  G
+  gas-constant
+  gauss-constant
+  glaisher-kinkelin-constant
+  golomb-dickman-constant
+  k
+  k0
+  K0
+  khinchin-constant
+  L
+  lp
+  magnetic-permittivity
+  mill-constant
+  mp
+  neutron-mass
+  phi
+  pi
+  planck-length
+  planck-mass
+  plancks-h
+  plancks-reduced-h
+  planck-temperature
+  planck-time
+  proton-mass
+  q
+  quantum-ratio
+  sierpinski-gamma
+  tp
+  vacuum-permeability
+  vacuum-permittivity
+  α
+  γ
+  δ
+  ε0
+  λ
+  μ0
+  φ
+>;
+
 my @constants;
 @constants-names ==> map  { EVAL $_  }  ==> @constants;
 
