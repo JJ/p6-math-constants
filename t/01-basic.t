@@ -60,8 +60,6 @@ my @num-constants;
 
 my @rat-constants-names = <
   α
-  eulernumber-e
-  pi
   gas-constant
   F
   fine-structure-constant

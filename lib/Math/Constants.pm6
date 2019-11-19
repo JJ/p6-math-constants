@@ -8,8 +8,6 @@ my constant plancks-reduced-h          is export = 1.054_571_800e-34;
 my constant c                          is export = 299792458;
 my constant g                          is export = 9.80665;
 my constant G                          is export = 6.67408e-11;
-my constant eulernumber-e              is export = 2.7182818284;
-my constant pi                         is export = 3.142857;
 my constant gas-constant               is export = 8.3144598;
 my constant F                          is export = 96484.5561;
 
@@ -96,7 +94,7 @@ Math::Constants - A few Math and Physics constants using original notation
   use Math::Constants;
 
 say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c
-, " ", G, " “,eulernumber-e ,” “,pi ,” and ", fine-structure-constant, " plus ",
+, " ", G, " and ", fine-structure-constant, " plus ",
 elementary-charge, " ", vacuum-permittivity ,” “, boltzmann-constant ,” and “,eV ,” ;
 say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
 " with q ", q, " and ε0 ", ε0;
