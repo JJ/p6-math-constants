@@ -10,7 +10,7 @@ my constant g                          is export = 9.80665;
 my constant G                          is export = 6.67408e-11;
 my constant eulernumber-e              is export = 2.7182818284;
 my constant pi                         is export = 3.142857;
-my constant gas-constant                         = 8.3144598;
+my constant gas-constant               is export = 8.3144598;
 my constant F                          is export = 96484.5561;
 
 my constant electron-mass              is export = 9.10938356e-31;
@@ -40,7 +40,7 @@ my constant vacuum-permeability        is export = 12.566370614359e-7;
 
 # (Strictly) Mathematical constants
 # REF: https://en.wikipedia.org/wiki/Mathematical_constant
-my constant alpha-feigenbaum-constant  is export =  2.502907875095892822283e0;
+my constant alpha-feigenbaum-constant  is export = 2.502907875095892822283e0;
 my constant delta-feigenbaum-constant  is export = 4.669201609102990e0;
 my constant apery-constant             is export = 1.2020569031595942853997381e0;
 my constant conway-constant            is export = 1.303577269034e0;
