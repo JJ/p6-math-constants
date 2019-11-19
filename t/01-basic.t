@@ -27,7 +27,7 @@ my @num-constants-names = <
   khinchin-constant
   L
   lp
-  magnetic-permittivity
+  magnetic-permeability
   mill-constant
   mp
   neutron-mass
