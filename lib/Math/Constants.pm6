@@ -1,40 +1,43 @@
 use v6;
 unit class Math::Constants:ver<0.0.4>:auth<github:JJ>;
 
+# Update physical constants from https://nist.gov/cuu/Constants -- CODATA 2018 recommendations
+# These are the values which led to the redifinition of the kilogram and ampere in SI on 2019-05-20
+
 # Universal Constants
 my constant phi                        is export = 1.61803398874989e0;
-my constant plancks-h                  is export = 6.626_070_040e-34;
-my constant plancks-reduced-h          is export = 1.054_571_800e-34;
+my constant plancks-h                  is export = 6.626_070_015e-34;   # exact
+my constant plancks-reduced-h          is export = 1.054_571_817e-34;
 my constant c                          is export = 299792458;
-my constant g                          is export = 9.80665;
-my constant G                          is export = 6.67408e-11;
-my constant gas-constant               is export = 8.3144598;
-my constant F                          is export = 96484.5561;
+my constant g                          is export = 9.80665;             # exact
+my constant G                          is export = 6.67430e-11;
+my constant gas-constant               is export = 8.314462618;         # exact
+my constant F                          is export = 96485.33212;         # exact
 
-my constant electron-mass              is export = 9.10938356e-31;
-my constant proton-mass                is export = 1.6726219e-27;
-my constant neutron-mass               is export = 1.674929e-27;
+my constant electron-mass              is export = 9.1093837015e-31;
+my constant proton-mass                is export = 1.67262192369e-27;
+my constant neutron-mass               is export = 1.67492749804e-27;
 
 # REF: http://www.ebyte.it/library/educards/constants/ConstantsOfPhysicsAndMath.html
-my constant quantum-ratio              is export = 2.417989348e14;
-my constant planck-mass                is export = 2.17651e-8;
+my constant quantum-ratio              is export = 2.417989242e14;
+my constant planck-mass                is export = 2.176434e-8;
 my constant mp                         is export := planck-mass;
-my constant planck-time                is export = 5.39106e-44;
+my constant planck-time                is export = 5.391247e-44;
 my constant tp                         is export := planck-time;
-my constant planck-length              is export = 1.616199e-35;
+my constant planck-length              is export = 1.616255e-35;
 my constant lp                         is export := planck-length;
-my constant planck-temperature         is export = 1.416833e+32;
-my constant L                          is export = 6.022140857e23;
+my constant planck-temperature         is export = 1.416784e+32;
+my constant L                          is export = 6.02214076e23;       # exact
 my constant K0                         is export = 9e9;
 
 # Electrical constants
-my constant fine-structure-constant    is export = 0.0072973525664;
-my constant elementary-charge          is export = 1.6021766208e-19;
-my constant vacuum-permittivity        is export = 8.854187817e-12;
-my constant magnetic-permittivity      is export = 12.566370614e-7;
-my constant boltzmann-constant         is export = 8.617343e-5; #eV i.e in electronvolts
-my constant eV                         is export = 1.60217653e-19;
-my constant vacuum-permeability        is export = 12.566370614359e-7;
+my constant fine-structure-constant    is export = 0.0072973525693;
+my constant elementary-charge          is export = 1.602176634e-19;     # exact
+my constant vacuum-permittivity        is export = 8.8541878128e-12;
+my constant magnetic-permittivity      is export = 12.5663706212e-7;
+my constant boltzmann-constant         is export = 8.617333262e-5; #eV i.e in electronvolts
+my constant eV                         is export = 1.602176634e-19;
+my constant vacuum-permeability        is export = 12.5663706212e-7;
 
 # (Strictly) Mathematical constants
 # REF: https://en.wikipedia.org/wiki/Mathematical_constant
