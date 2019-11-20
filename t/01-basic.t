@@ -90,5 +90,6 @@ is-approx 0.1c, c/10, "Speed of light as unit";
 
 is-approx 0.1g, g/10, "Standard gravity";
 
+is-approx 0.1eV, 1.0/(eV*10), "Electron Volts";
 
 done-testing;
