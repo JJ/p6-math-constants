@@ -68,7 +68,6 @@ my @rat-constants-names = <
 
 my @rat-constants;
 @rat-constants-names ==> map  { EVAL $_  }  ==> @rat-constants;
-dd @rat-constants;
 
 @rat-constants.map( { is .WHAT, (Rat), "Type OK"} );
 
