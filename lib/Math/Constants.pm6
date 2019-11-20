@@ -1,5 +1,5 @@
 use v6;
-unit class Math::Constants:ver<0.0.4>:auth<github:JJ>;
+unit class Math::Constants:ver<0.1.0>:auth<github:JJ>;
 
 # Update physical constants from https://nist.gov/cuu/Constants -- CODATA 2018 recommendations
 # These are the values which led to the redefinition of the kilogram and ampere in SI on 2019-05-20
