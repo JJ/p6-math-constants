@@ -45,12 +45,12 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 * [Avogadro's constant](https://en.wikipedia.org/wiki/Avogadro_constant) as `avogadro-constant` or `L`.
 * [Vacuum magnetic permeability](https://en.wikipedia.org/wiki/Vacuum_permeability) as `magnetic-permeability` or `μ0`.
 * [Mass of a neutron](https://en.wikipedia.org/wiki/Neutron) as `neutron-mass`.
-* [Planck length](https://en.wikipedia.org/wiki/Planck_length) as `planck-length' or `lp`.
-* [Planck mass](https://en.wikipedia.org/wiki/Planck_mass) as `planck-mass' or `mp`.
-* [Planck temperature](https://en.wikipedia.org/wiki/Planck_temperature) as `planck-temperature' or `Tp`.
-* [Planck time](https://en.wikipedia.org/wiki/Planck_time) as `planck-time' or `tp`.
-* [Mass of a proton](https://en.wikipedia.org/wiki/Proton) as `proton-mass'.
-* The quantum ratio (elementary charge / Planck constant) as `quantum-ratio'.
+* [Planck length](https://en.wikipedia.org/wiki/Planck_length) as `planck-length` or `lp`.
+* [Planck mass](https://en.wikipedia.org/wiki/Planck_mass) as `planck-mass` or `mp`.
+* [Planck temperature](https://en.wikipedia.org/wiki/Planck_temperature) as `planck-temperature` or `Tp`.
+* [Planck time](https://en.wikipedia.org/wiki/Planck_time) as `planck-time` or `tp`.
+* [Mass of a proton](https://en.wikipedia.org/wiki/Proton) as `proton-mass`.
+* The quantum ratio (elementary charge / Planck constant) as `quantum-ratio`.
 * [Standard acceleration due to gravity](https://en.wikipedia.org/wiki/Standard_gravity) as `standard-acceleration-gravity` or `g`.
 * [Vacuum electrical permittivity](https://en.wikipedia.org/wiki/Vacuum_permittivity) as `vacuum-permittivity` or `ε0`.
 
