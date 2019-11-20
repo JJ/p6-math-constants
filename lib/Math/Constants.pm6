@@ -90,40 +90,77 @@ sub postfix:<eV>  (Real $value) is export {
 }
 
 =begin pod
+=head1 Math::Constants
 
-=head1 NAME
-
-Math::Constants - A few Math and Physics constants using original notation
+Math::Constants - A few constants defined in Perl6
 
 =head1 SYNOPSIS
 
-  use Math::Constants;
+	#!/usr/bin/env perl6
+	
+	use v6;
+	use Math::Constants;
 
-say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", c
-, " ", G, " and ", fine-structure-constant, " plus ",
-elementary-charge, " ", vacuum-permittivity ,” “, boltzmann-constant ,” and “,eV ,” ;
-say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
-" with q ", q, " and ε0 ", ε0;
+	say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", 
+	    c, " ", G, " and ", fine-structure-constant, " plus ",
+	    elementary-charge, " and ", vacuum-permittivity ;
+		
+	say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
+	    " with e ", e, " and ε0 ", ε0;
 
-   say "We are flying at speed ", .1c;
+	say "We are flying at speed ", .1c;
 
 =head1 DESCRIPTION
 
-Math::Constants is a set of constants used in Physics, Chemistry and Math.
+Math::Constants is a collection of Math and Physics constants that
+will save you the trouble of defining them.
 
-φ is a mathematical constant called the Golden Ratio, ℎ,
-and ℏ are different versions of Planck's constant,
-c is the speed of light, G the universal gravitation constant,
-and α the fine structure constant.
+=head2 Constants included
 
-    There are a set of 3 electrical constants: the elementary charge q,
-the vacuum permittivity ε₀ and the fine structure constant α
+=head3 Physical constants
 
-    C<c> can also be used as an unit of speed,
-as in .001c for a thousandth of the speed of light.
+All the physical constants have the CODATA 2018 recommended values. These reflect the new definitions of the kilogram and ampere as of 2019-05-20.
 
-This set is by no means complete,
-but they are just a few examples that you can use in your programs.
+=item L<Gravitational constant|https://en.wikipedia.org/wiki/Gravitational_constant> as C<gravitation-constant> and C<G>.
+=item L<Speed of light|https://en.wikipedia.org/wiki/Speed_of_light> as C<speed-of-light-vacuum> and C<c>. It works also as a suffix for expressing speeds, as in C<3c> for 3 times the speed of light. 
+=item L<Planck constant and reduced constant|https://en.wikipedia.org/wiki/Planck_constant> in J/s as C<plancks-h> or C<ℎ> and C<plancks-reduced-h> or C<ℏ>.
+=item L<Boltzmann constant|https://en.wikipedia.org/wiki/Boltzmann_constant> as C<boltzmann-constant>.
+=item L<Coulomb constant|https://en.wikipedia.org/wiki/Coulomb_constant> as C<coulomb-constant> or C<K0>.
+=item L<Mass of an electron|https://en.wikipedia.org/wiki/Electron> as C<electron-mass>.
+=item L<Electron volt|https://en.wikipedia.org/wiki/Electronvolt> as C<electron-volt> and C<eV> or as an operator.
+=item L<Elementary charge|https://en.wikipedia.org/wiki/Elementary_charge> as C<elementary-charge> or C<q>.
+=item L<Faraday constant|https://en.wikipedia.org/wiki/Faraday_constant> as C<faraday-constant> or C<F>.
+=item L<The fine structure constant|https://en.wikipedia.org/wiki/Fine_structure> as C<fine-structure-constant> or C<α>.
+=item L<Gas constant|https://en.wikipedia.org/wiki/Gas_constant> as C<gas-constant>.
+=item L<Avogadro's constant|https://en.wikipedia.org/wiki/Avogadro_constant> as C<avogadro-constant> or C<L>.
+=item L<Vacuum magnetic permeability|https://en.wikipedia.org/wiki/Vacuum_permeability> as C<magnetic-permeability> or C<μ0>.
+=item L<Mass of a neutron|https://en.wikipedia.org/wiki/Neutron> as C<neutron-mass>.
+=item L<Planck length|https://en.wikipedia.org/wiki/Planck_length> as C<planck-length> or C<lp>.
+=item L<Planck mass|https://en.wikipedia.org/wiki/Planck_mass> as C<planck-mass> or C<mp>.
+=item L<Planck temperature|https://en.wikipedia.org/wiki/Planck_temperature> as C<planck-temperature> or C<Tp>.
+=item L<Planck time|https://en.wikipedia.org/wiki/Planck_time> as C<planck-time> or C<tp>.
+=item L<Mass of a proton|https://en.wikipedia.org/wiki/Proton> as C<proton-mass>.
+=item The quantum ratio (elementary charge / Planck constant> as C<quantum-ratio>.
+=item L<Standard acceleration due to gravity|https://en.wikipedia.org/wiki/Standard_gravity> as C<standard-acceleration-gravity> or C<g>.
+=item L<Vacuum electrical permittivity|https://en.wikipedia.org/wiki/Vacuum_permittivity> as C<vacuum-permittivity> or C<ε0>.
+
+=head3 Mathematical constants
+=item L<Golden ratio|https://en.wikipedia.org/wiki/Golden_ratio> as C<phi> or C<φ>.
+=item L<Feigenbaum constants|https://en.wikipedia.org/wiki/Feigenbaum_constants> as C<alpha-feigenbaum-constant> and C<delta-feigenbaum-constant> or C<δ>.
+=item L<Apéry's constant|https://en.wikipedia.org/wiki/Ap%C3%A9ry%27s_constant> as C<apery-constant>.
+=item L<Conway's constant|https://en.wikipedia.org/wiki/Look-and-say_sequence#Growth_in_length> as C<conway-constant> and C<λ>.
+=item L<Khinchin's constant|https://en.wikipedia.org/wiki/Khinchin%27s_constant> as C<khinchin-constant> and C<k0>.
+=item L<Glaisher–Kinkelin constant|https://en.wikipedia.org/wiki/Glaisher%E2%80%93Kinkelin_constant> as C<glaisher-kinkelin-constant> and C<A>.
+=item L<Golomb–Dickman constant|https://en.wikipedia.org/wiki/Golomb%E2%80%93Dickman_constant> as C<golomb-dickman-constant>. 
+=item L<Catalan's constant|https://en.wikipedia.org/wiki/Catalan%27s_constant> as C<catalan-constant>. 
+=item L<Mill's constant|https://en.wikipedia.org/wiki/Mills%27_constant> as C<mill-constant>. 
+=item L<Gauss's constant|https://en.wikipedia.org/wiki/Gauss%27s_constant> as C<gauss-constant>. 
+=item L<Euler–Mascheroni constant|https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant> as C<euler-mascheroni-gamma> and C<γ>. 
+=item L<Sierpiński's constant|https://en.wikipedia.org/wiki/Sierpi%C5%84ski%27s_constant> as C<sierpinski-gamma> and C<k>. 
+
+=head1 Issues and suggestions
+
+Please post them L<in GitHub|https://github.com/JJ/p6-math-constants/issues>. Pull requests are also welcome.
 
 =head1 AUTHOR
 
@@ -131,8 +168,10 @@ JJ Merelo <jjmerelo@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2016, 2017 JJ Merelo
+Copyright 2016 JJ Merelo
 
-This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+This library is free software; you can redistribute it and/or modify
+it under the GPL 3.0.
+
 
 =end pod
