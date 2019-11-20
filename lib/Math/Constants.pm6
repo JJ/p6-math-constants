@@ -85,6 +85,10 @@ sub postfix:<g>  (Real $value) is export {
     return g*$value;
 }
 
+sub postfix:<eV>  (Real $value) is export {
+    return $value / eV;
+}
+
 =begin pod
 
 =head1 NAME
