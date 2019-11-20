@@ -70,19 +70,11 @@ my constant γ  is export := euler-mascheroni-gamma;
 my constant k  is export := sierpinski-gamma;
 
 #Use them as units
-multi sub postfix:<c>  (Num $value) is export {
+sub postfix:<c>  (Real $value) is export {
     return c*$value;
 }
 
-multi sub postfix:<g>  (Num $value) is export {
-    return g*$value;
-}
-
-multi sub postfix:<c>  (Rat $value) is export {
-    return c*$value;
-}
-
-multi sub postfix:<g>  (Rat $value) is export {
+sub postfix:<g>  (Real $value) is export {
     return g*$value;
 }
 
