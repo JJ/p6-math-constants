@@ -47,7 +47,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 * [Mass of a neutron](https://en.wikipedia.org/wiki/Neutron) as `neutron-mass`.
 * [Planck length](https://en.wikipedia.org/wiki/Planck_length) as `planck-length' or `lp`.
 * [Planck mass](https://en.wikipedia.org/wiki/Planck_mass) as `planck-mass' or `mp`.
-* [Planck temperature](https://en.wikipedia.org/wiki/Planck_temperature) as `planck-temperature'.
+* [Planck temperature](https://en.wikipedia.org/wiki/Planck_temperature) as `planck-temperature' or `Tp`.
 * [Planck time](https://en.wikipedia.org/wiki/Planck_time) as `planck-time' or `tp`.
 * [Mass of a proton](https://en.wikipedia.org/wiki/Proton) as `proton-mass'.
 * The quantum ratio (elementary charge / Planck constant) as `quantum-ratio'.

@@ -65,6 +65,7 @@ my constant L  is export := kg-amu;
 my constant lp is export := planck-length;
 my constant mp is export := planck-mass;
 my constant q  is export := elementary-charge;
+my constant Tp is export := planck-temperature;
 my constant tp is export := planck-time;
 my constant α  is export := fine-structure-constant;
 my constant γ  is export := euler-mascheroni-gamma;
