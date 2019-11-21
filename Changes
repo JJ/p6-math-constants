@@ -1,5 +1,15 @@
 2019-11-22  Kevin Pye <Kevin.Pye@gmail.com>
 
+	* Update version to 0.1.1
+
+	* Use SI units for Boltzmann's constant
+
+	* Generate README.md from Constants.pm6
+
+	* Add Kevin Pye as author
+
+2019-11-22  Kevin Pye <Kevin.Pye@gmail.com>
+
 	* Update version to 0.1.0
 
 	* Update pod
