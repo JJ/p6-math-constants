@@ -1,3 +1,25 @@
+2019-11-22  Kevin Pye <Kevin.Pye@gmail.com>
+
+	* Update version to 0.1.0
+
+	* Update pod
+
+	* Add Tp as synonym for planck-temperature
+
+	* Update README.md with all constants
+
+	* Add postfix operator eV
+
+	* Add long names for everything
+
+	* Renamed magnetic-permittivity to magnetic-permability
+
+	* Updated physical constants to CODATA 2018 recommendations as per https://nist.gov/cuu/Constants
+
+	* Remove euler-e and pi, being unnecessary.
+
+	* Add "is export" for gas-constant
+
 2016-12-31  JJ Merelo  <jmerelo@flash>
 
 	* META6.json: 0.0.3 is version with speed of light.
