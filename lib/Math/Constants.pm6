@@ -1,5 +1,5 @@
 use v6;
-unit class Math::Constants:ver<0.1.0>:auth<github:JJ>;
+unit class Math::Constants:ver<0.1.1>:auth<github:JJ>;
 
 # Update physical constants from https://nist.gov/cuu/Constants -- CODATA 2018 recommendations
 # These are the values which led to the redefinition of the kilogram and ampere in SI on 2019-05-20
@@ -27,7 +27,7 @@ my constant fine-structure-constant       is export = 0.0072973525693;
 my constant elementary-charge             is export = 1.602176634e-19;     # exact
 my constant vacuum-permittivity           is export = 8.8541878128e-12;
 my constant magnetic-permeability         is export = 12.5663706212e-7;
-my constant boltzmann-constant            is export = 8.617333262e-5; #eV i.e in electronvolts
+my constant boltzmann-constant            is export = 1.380649e-23;        # exact -- was in eV, now in J K^-1
 my constant electron-volt                 is export = 1.602176634e-19;
 my constant vacuum-permeability           is export = 12.5663706212e-7;
 
@@ -124,7 +124,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 =item L<Gravitational constant|https://en.wikipedia.org/wiki/Gravitational_constant> as C<gravitation-constant> and C<G>.
 =item L<Speed of light|https://en.wikipedia.org/wiki/Speed_of_light> as C<speed-of-light-vacuum> and C<c>. It works also as a suffix for expressing speeds, as in C<3c> for 3 times the speed of light. 
 =item L<Planck constant and reduced constant|https://en.wikipedia.org/wiki/Planck_constant> in J/s as C<plancks-h> or C<ℎ> and C<plancks-reduced-h> or C<ℏ>.
-=item L<Boltzmann constant|https://en.wikipedia.org/wiki/Boltzmann_constant> as C<boltzmann-constant>.
+=item L<Boltzmann constant|https://en.wikipedia.org/wiki/Boltzmann_constant> as C<boltzmann-constant>. Previous versions of Math::Constants had this in eV. The value is now in standard SI units. The eV postfix operator can be used to get the previous value if needed.
 =item L<Coulomb constant|https://en.wikipedia.org/wiki/Coulomb_constant> as C<coulomb-constant> or C<K0>.
 =item L<Mass of an electron|https://en.wikipedia.org/wiki/Electron> as C<electron-mass>.
 =item L<Electron volt|https://en.wikipedia.org/wiki/Electronvolt> as C<electron-volt> and C<eV> or as an operator.
@@ -166,9 +166,13 @@ Please post them L<in GitHub|https://github.com/JJ/p6-math-constants/issues>. Pu
 
 JJ Merelo <jjmerelo@gmail.com>
 
+Kevin Pye <Kevin.Pye@gmail.com>
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright 2016 JJ Merelo
+
+Copyright 2019 Kevin Pye
 
 This library is free software; you can redistribute it and/or modify
 it under the GPL 3.0.
