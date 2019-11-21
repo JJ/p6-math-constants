@@ -38,7 +38,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 
   * [Planck constant and reduced constant](https://en.wikipedia.org/wiki/Planck_constant) in J/s as `plancks-h` or `ℎ` and `plancks-reduced-h` or `ℏ`.
 
-  * [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant) as `boltzmann-constant`.
+  * [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant) as `boltzmann-constant`. Previous versions of Math::Constants had this in eV. The value is now in standard SI units. The eV postfix operator can be used to get the previous value if needed.
 
   * [Coulomb constant](https://en.wikipedia.org/wiki/Coulomb_constant) as `coulomb-constant` or `K0`.
 
@@ -112,10 +112,14 @@ AUTHOR
 
 JJ Merelo <jjmerelo@gmail.com>
 
+Kevin Pye <Kevin.Pye@gmail.com>
+
 COPYRIGHT AND LICENSE
 =====================
 
 Copyright 2016 JJ Merelo
+
+Copyright 2019 Kevin Pye
 
 This library is free software; you can redistribute it and/or modify it under the GPL 3.0.
 

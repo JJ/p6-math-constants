@@ -166,9 +166,13 @@ Please post them L<in GitHub|https://github.com/JJ/p6-math-constants/issues>. Pu
 
 JJ Merelo <jjmerelo@gmail.com>
 
+Kevin Pye <Kevin.Pye@gmail.com>
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright 2016 JJ Merelo
+
+Copyright 2019 Kevin Pye
 
 This library is free software; you can redistribute it and/or modify
 it under the GPL 3.0.
