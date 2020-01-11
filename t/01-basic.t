@@ -8,6 +8,7 @@ my @num-constants-names = <
   ℏ
   A
   alpha-feigenbaum-constant
+  alpha-particle-mass
   apery-constant
   boltzmann-constant
   catalan-constant

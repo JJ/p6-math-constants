@@ -16,6 +16,7 @@ my constant faraday-constant              is export = 96485.33212;         # exa
 my constant electron-mass                 is export = 9.1093837015e-31;
 my constant proton-mass                   is export = 1.67262192369e-27;
 my constant neutron-mass                  is export = 1.67492749804e-27;
+my constant alpha-particle-mass           is export = 6.6446573357e-27;
 my constant quantum-ratio                 is export = 2.417989242e14;
 my constant planck-mass                   is export = 2.176434e-8;
 my constant planck-time                   is export = 5.391247e-44;
@@ -135,6 +136,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 =item L<Avogadro's constant|https://en.wikipedia.org/wiki/Avogadro_constant> as C<avogadro-constant> or C<L>.
 =item L<Vacuum magnetic permeability|https://en.wikipedia.org/wiki/Vacuum_permeability> as C<magnetic-permeability> or C<μ0>.
 =item L<Mass of a neutron|https://en.wikipedia.org/wiki/Neutron> as C<neutron-mass>.
+=item L<Mass of an alpha particle|https://en.wikipedia.org/wiki/Alpha_particle> as C<alpha-particle-mass>.
 =item L<Planck length|https://en.wikipedia.org/wiki/Planck_length> as C<planck-length> or C<lp>.
 =item L<Planck mass|https://en.wikipedia.org/wiki/Planck_mass> as C<planck-mass> or C<mp>.
 =item L<Planck temperature|https://en.wikipedia.org/wiki/Planck_temperature> as C<planck-temperature> or C<Tp>.
