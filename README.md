@@ -1,7 +1,7 @@
 Math::Constants
 ===============
 
-Math::Constants - A few constants defined in Perl6
+Math::Constants - A few constants defined in Raku
 
 SYNOPSIS
 ========
@@ -103,6 +103,14 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 
   * [Sierpiński's constant](https://en.wikipedia.org/wiki/Sierpi%C5%84ski%27s_constant) as `sierpinski-gamma` and `k`. 
 
+### Units
+
+"Units" can be used as suffix; the number will be multiplied by its value
+
+ * `eV`, or electron-volts.
+ * `c`, speed of light.
+ * `g`, gravitational constant.
+
 Issues and suggestions
 ======================
 
@@ -118,7 +126,7 @@ Kevin Pye <Kevin.Pye@gmail.com>
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2016 JJ Merelo
+Copyright 2016-2022 JJ Merelo
 
 Copyright 2019 Kevin Pye
 
