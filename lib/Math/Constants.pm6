@@ -1,4 +1,3 @@
-use v6;
 unit class Math::Constants:ver<0.1.1>:auth<github:JJ>;
 
 # Update physical constants from https://nist.gov/cuu/Constants -- CODATA 2018 recommendations
