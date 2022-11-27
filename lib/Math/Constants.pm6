@@ -95,6 +95,9 @@ sub postfix:<eV>  (Real $value) is export {
 
 sub term:<iⁱ> is export { exp( π/2 ) }
 
+sub term:<ζ(2)> is export { π²/6 }
+
+
 =begin pod
 =head1 Math::Constants
 
