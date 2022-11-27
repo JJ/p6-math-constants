@@ -174,7 +174,7 @@ Kevin Pye <Kevin.Pye@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2016 JJ Merelo
+Copyright 2016-2022 JJ Merelo
 
 Copyright 2019 Kevin Pye
 
