@@ -1,3 +1,4 @@
+name: Test-install distro
 on: [ push, pull_request ]
 jobs:
   test:
