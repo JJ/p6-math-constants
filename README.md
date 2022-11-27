@@ -107,7 +107,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 
 "Units" can be used as suffix; the number will be multiplied by its value
 
- * `eV`, or electron-volts.
+ * `eV`, or electron-volts; `1.3eV` is 1.3 divided by the `eV` constant value.
  * `c`, speed of light.
  * `g`, gravitational constant.
 
