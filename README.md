@@ -71,7 +71,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 
   * [Mass of a proton](https://en.wikipedia.org/wiki/Proton) as `proton-mass`.
 
-  * The quantum ratio (elementary charge / Planck constant> as `quantum-ratio`.
+  * The quantum ratio (elementary charge / Planck constant) as `quantum-ratio`.
 
   * [Standard acceleration due to gravity](https://en.wikipedia.org/wiki/Standard_gravity) as `standard-acceleration-gravity` or `g`.
 
