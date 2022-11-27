@@ -96,4 +96,7 @@ is-approx 0.1g, g/10, "Standard gravity";
 
 is-approx 0.1eV, 1.0/(eV*10), "Electron Volts";
 
+# Terms
+is-approx iⁱ, exp( π/2 ), "iⁱ";
+
 done-testing;

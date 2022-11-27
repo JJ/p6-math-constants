@@ -102,6 +102,8 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
   * [Euler–Mascheroni constant](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant) as `euler-mascheroni-gamma` and `γ`. 
 
   * [Sierpiński's constant](https://en.wikipedia.org/wiki/Sierpi%C5%84ski%27s_constant) as `sierpinski-gamma` and `k`. 
+  
+  * [iⁱ](https://oeis.org/A049006)
 
 ### Units
 

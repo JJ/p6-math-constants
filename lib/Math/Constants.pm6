@@ -91,6 +91,10 @@ sub postfix:<eV>  (Real $value) is export {
     return $value / eV;
 }
 
+# Complex constants that can't be syntactically defined as such
+
+sub term:<iⁱ> is export { exp( π/2 ) }
+
 =begin pod
 =head1 Math::Constants
 
