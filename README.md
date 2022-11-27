@@ -6,19 +6,20 @@ Math::Constants - A few constants defined in Perl6
 SYNOPSIS
 ========
 
-    #!/usr/bin/env perl6
+```raku
+#!/usr/bin/env raku
 
-    use v6;
-    use Math::Constants;
+use Math::Constants;
 
-    say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", 
-        c, " ", G, " and ", fine-structure-constant, " plus ",
-        elementary-charge, " and ", vacuum-permittivity ;
-	    
-    say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
-        " with e ", e, " and ε0 ", ε0;
+say "We have ", phi, " ", plancks-h, " ",  plancks-reduced-h, " ", 
+    c, " ", G, " and ", fine-structure-constant, " plus ",
+    elementary-charge, " and ", vacuum-permittivity ;
+	
+say "And also  φ ", φ, " α ", α,  " ℎ ",  ℎ, " and ℏ ", ℏ,
+    " with e ", e, " and ε0 ", ε0;
 
-    say "We are flying at speed ", .1c;
+say "We are flying at speed ", .1c;
+```
 
 DESCRIPTION
 ===========
