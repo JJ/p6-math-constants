@@ -104,6 +104,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
   * [Sierpiński's constant](https://en.wikipedia.org/wiki/Sierpi%C5%84ski%27s_constant) as `sierpinski-gamma` and `k`. 
   
   * [iⁱ](https://oeis.org/A049006)
+  * [ζ(2)](https://oeis.org/A013661)
 
 ### Units
 
