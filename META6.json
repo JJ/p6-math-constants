@@ -2,20 +2,16 @@
     "authors" : [
 	"JJ Merelo"
     ],
-    "build-depends" : [ ],
-    "depends" : [ ],
     "description" : "A few Math and Physics constants",
     "name" : "Math::Constants",
     "license" : "GPL-3.0",
-    "perl" : "6.*",
+    "auth" : "zef:jjmerelo",
     "provides" : {
 	"Math::Constants" : "lib/Math/Constants.pm6"
     },
     "tags" : ["math", "constants", "physics"],
-    "resources" : [ ],
     "source-url" : "https://github.com/JJ/p6-math-constants.git",
     "test-depends"  : [
-        "Test",
         "Test::META"
     ],
     "version" : "0.2.1"
