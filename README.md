@@ -39,7 +39,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 
   * [Planck constant and reduced constant](https://en.wikipedia.org/wiki/Planck_constant) in J/s as `plancks-h` or `ℎ` and `plancks-reduced-h` or `ℏ`.
 
-  * [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant) as `boltzmann-constant`. Previous versions of Math::Constants had this in eV. The value is now in standard SI units. The eV postfix operator can be used to get the previous value if needed.
+  * [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant) as `boltzmann-constant` or `k`. Previous versions of Math::Constants had this in eV. The value is now in standard SI units. The eV postfix operator can be used to get the previous value if needed.
 
   * [Coulomb constant](https://en.wikipedia.org/wiki/Coulomb_constant) as `coulomb-constant` or `K0`.
 
@@ -53,7 +53,7 @@ All the physical constants have the CODATA 2018 recommended values. These reflec
 
   * [The fine structure constant](https://en.wikipedia.org/wiki/Fine_structure) as `fine-structure-constant` or `α`.
 
-  * [Gas constant](https://en.wikipedia.org/wiki/Gas_constant) as `gas-constant`.
+  * [Gas constant](https://en.wikipedia.org/wiki/Gas_constant) as `gas-constant` or `R`.
 
   * [Avogadro's constant](https://en.wikipedia.org/wiki/Avogadro_constant) as `avogadro-constant` or `L`.
 
