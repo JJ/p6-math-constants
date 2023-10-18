@@ -118,7 +118,15 @@ All the physical constants have the [CODATA 2018](https://www.nist.gov/publicati
 Issues and suggestions
 ======================
 
-Please post them [in GitHub](https://github.com/JJ/p6-math-constants/issues). Pull requests are also welcome.
+Please post them [in GitHub](https://github.com/JJ/p6-math-constants/issues
+). Pull requests are also welcome.
+
+See also
+========
+
+Check out [Physics::Constants](https://raku.land/zef:librasteve/Physics
+::Constants) for an extensive collection of objects that use the [Physics
+::Measure](https://github.com/librasteve/raku-Physics-Measure) objects.
 
 AUTHOR
 ======
