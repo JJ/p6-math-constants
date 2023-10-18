@@ -1,6 +1,8 @@
 {
     "authors" : [
-	"JJ Merelo"
+	"JJ Merelo",
+        "Kevin Pye",
+        "librasteve"
     ],
     "description" : "A few Math and Physics constants",
     "name" : "Math::Constants",
@@ -14,5 +16,5 @@
     "test-depends"  : [
         "Test::META"
     ],
-    "version" : "0.2.1"
+    "version" : "0.2.2"
 }

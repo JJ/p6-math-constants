@@ -31,7 +31,8 @@ Constants included
 
 ### Physical constants
 
-All the physical constants have the CODATA 2018 recommended values. These reflect the new definitions of the kilogram and ampere as of 2019-05-20.
+All the physical constants have the [CODATA 2018](https://www.nist.gov/publications/codata-recommended-values-fundamental-physical-constants-2018) recommended values. These
+ reflect the new definitions of the kilogram and ampere as of 2019-05-20.
 
   * [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant) as `gravitation-constant` and `G`.
 
@@ -122,14 +123,16 @@ Please post them [in GitHub](https://github.com/JJ/p6-math-constants/issues). Pu
 AUTHOR
 ======
 
-JJ Merelo <jjmerelo@gmail.com>
+* JJ Merelo <jjmerelo@gmail.com>
 
-Kevin Pye <Kevin.Pye@gmail.com>
+* Kevin Pye <Kevin.Pye@gmail.com>
+
+* [`librasteve`](https://github.com/librasteve)
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2016-2022 JJ Merelo
+Copyright 2016-2023 JJ Merelo
 
 Copyright 2019 Kevin Pye
 
