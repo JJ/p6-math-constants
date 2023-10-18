@@ -1,6 +1,8 @@
 Math::Constants [![.github/workflows/test.yaml](https://github.com/JJ/p6-math-constants/actions/workflows/test.yaml/badge.svg)](https://github.com/JJ/p6-math-constants/actions/workflows/test.yaml)
 ===============
 
+[![Raku.land badge](https://raku.land/zef:jjmerelo/Math::Constants/badges/version)](https://raku.land/zef:jjmerelo/Math::Constants)
+
 Math::Constants - A few constants defined in Raku
 
 SYNOPSIS
